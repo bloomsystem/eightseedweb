@@ -6,13 +6,17 @@ export const MainView = () => {
       <Container fluid className="wrap p-0 bg-basic py-5">
         <Container className="justify-content-center">
           <Row>
-            <Col xs="12" className="text-center">
+            <Col xs="12" className="text-center pt-5">
               <h1 className="grad pb-2 en-new-spirit text-accent">
                 eight seed
               </h1>
-              <p className="text-secondary en-new-spirit text-tone">
+              <p className="text-secondary en-new-spirit text-tone mb-5">
                 aim for warm systems.
               </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/tree.png`}
+                className="w-25"
+              />
             </Col>
           </Row>
         </Container>

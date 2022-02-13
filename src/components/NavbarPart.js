@@ -10,6 +10,7 @@ const NavbarPart = ({ istop }) => {
         bg="dark"
         variant="dark"
         className="bg-basic"
+        fixed="top"
       >
         <Container>
           <Navbar.Brand href="#home">eight seed</Navbar.Brand>
