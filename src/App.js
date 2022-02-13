@@ -10,7 +10,7 @@ import { Index } from './pages/Index';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Index />} />
       </Routes>
