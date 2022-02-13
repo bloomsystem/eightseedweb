@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  word-break: break-all;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #fff9c9;
+  --accent-color: #5dd89b;
+  --secondary-color: #008c64;
+  --basic-color: #171717;
+  --tone-color: #ededed;
+  --info-color: #eb8d2a;
+  --disabled-color: #eee;
+  --h1: 24px;
+  --h2: 18px;
+  --h3: 18px;
+  --h4: 16px;
+  --h5: 12px;
+}
+
+.bg-basic {
+  background: var(--basic-color) !important;
+}
+.bg-tone {
+  background: var(--tone-color) !important;
+}
+.text-accent {
+  color: var(--accent-color) !important;
+}
+.text-tone {
+  color: var(--tone-color) !important;
+}
+
+.en-new-spirit {
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
 }
