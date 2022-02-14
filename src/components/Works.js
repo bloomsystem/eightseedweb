@@ -36,8 +36,8 @@ export const Works = () => {
 
   return (
     <>
-      <Container fluid className="bg-tone ">
-        <Row>
+      <Container fluid className="bg-tone">
+        <Row className="align-items-center">
           <Col md="7">
             <img
               src={`${process.env.PUBLIC_URL}/bg/mountain.jpg`}
@@ -58,7 +58,7 @@ export const Works = () => {
                     手法に捉われず常に新しいことに挑戦するため、要件に合わせた柔軟な対応が可能です。
                   </p>
 
-                  <p>
+                  <p className="text-basic">
                     webシステム / Android,iOS APP / 業務システム / webデザイン /
                     webサイト,ECサイト / クラウド,オンプレインフラ構築 /
                     システム運用保守

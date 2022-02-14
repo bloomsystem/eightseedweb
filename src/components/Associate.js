@@ -29,7 +29,7 @@ export const Associate = () => {
         <Col xs="8" className="mx-auto text-left mb-5">
           <p className="text-basic fw-bold">お取引先様一例</p>
           <h2 className="text-basic fw-bold en-new-spirit ">
-            business associate
+            Business Associate
           </h2>
           <hr className="dots mx-0" />
         </Col>
