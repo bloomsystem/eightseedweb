@@ -108,3 +108,18 @@
 .button-accent:hover {
   color: #fff;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .info-logo {
+    animation: info-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes info-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

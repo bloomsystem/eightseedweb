@@ -6,7 +6,7 @@ export const Information = () => {
       <Row>
         <Col md="6">
           <img
-            className="d-block mx-auto"
+            className="d-block mx-auto info-logo"
             src={`${process.env.PUBLIC_URL}/earth.svg`}
             width="300px"
           />
