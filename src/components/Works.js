@@ -9,7 +9,7 @@ export const Works = () => {
     },
     {
       title: '設計',
-      data: '前工程を元に画面設定書の作成。お客様との認識齟齬を防ぎ、Webシステムの場合はモバイルファーストなサイトをデザインします。※お客様合意の上詳細な設計フェーズを省き工数削減、PDCA重視の対応をさせていただく場合もございます。',
+      data: '前工程を元に画面設定書の作成。お客様との認識齟齬を防ぎます。お客様合意の上詳細な設計フェーズを省き工数削減、PDCA重視の対応をさせていただく場合もございます。',
       image: '/layers.svg',
     },
     {
@@ -35,55 +35,71 @@ export const Works = () => {
   ];
 
   return (
-    <Container fluid className="bg-tone py-5">
-      <Container className="py-5">
+    <>
+      <Container fluid className="bg-tone ">
         <Row>
-          <Col className="mb-5">
-            <p className="text-center">各種受託開発・自社開発等</p>
-            <h2 className="en-new-spirit text-center">Works</h2>
-            <hr />
+          <Col md="7">
+            <img
+              src={`${process.env.PUBLIC_URL}/bg/mountain.jpg`}
+              className="img-fluid"
+            />
           </Col>
-        </Row>
-        <Row>
-          <Col className="text-center">
-            <p>webシステム開発</p>
-            <p>Android app開発</p>
-            <p>iOS app開発</p>
-            <p>業務システム開発</p>
-            <p>webデザイン</p>
-          </Col>
-          <Col className="text-center">
-            <p>webサイト制作</p>
-            <p>ECサイト構築</p>
-            <p>インフラ構築</p>
-            <p>サーバー管理</p>
-            <p>システム運用保守</p>
+          <Col md="5">
+            <Container className="py-5">
+              <Row>
+                <Col className="py-5">
+                  <p className="fw-bold text-basic">各種受託開発・自社開発等</p>
+                  <h2 className="en-new-spirit fw-bold text-accent">Works</h2>
+                  <hr />
+                  <p className="fw-bold text-basic">
+                    私たちはフロントエンドを中心に、バックエンド、ネイティブ開発等を得意としています。
+                  </p>
+                  <p className="fw-bold text-basic">
+                    手法に捉われず常に新しいことに挑戦するため、要件に合わせた柔軟な対応が可能です。
+                  </p>
+
+                  <p>
+                    webシステム / Android,iOS APP / 業務システム / webデザイン /
+                    webサイト,ECサイト / クラウド,オンプレインフラ構築 /
+                    システム運用保守
+                  </p>
+                </Col>
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>
       <Container className="py-5">
-        <Row>
-          <Col className="mb-5">
-            <p className="text-center">webシステムを例としたアプローチの一例</p>
-            <h2 className="en-new-spirit text-center">Work Flow</h2>
-            <hr />
-          </Col>
-        </Row>
-        <Row>
-          {workFlow.map((list, index) => (
-            <Col xs="12" sm="4" md="4 pt-0" className="" key={index}>
-              <img
-                src={`${process.env.PUBLIC_URL}${list.image}`}
-                alt="mv"
-                className="mb-2 d-block mx-auto"
-                width="100px"
-              />
-              <h3 className="text-center">{list.title}</h3>
-              <p>{list.data}</p>
+        <Container className="py-5">
+          <Row>
+            <Col className="mb-5">
+              <p className="text-center fw-bold text-basic">
+                webシステムを例としたアプローチの一例
+              </p>
+              <h2 className="en-new-spirit text-center fw-bold text-basic">
+                Work Flow
+              </h2>
+              <hr />
             </Col>
-          ))}
-        </Row>
+          </Row>
+          <Row>
+            {workFlow.map((list, index) => (
+              <Col xs="12" sm="4" md="4 pt-0" className="" key={index}>
+                <img
+                  src={`${process.env.PUBLIC_URL}${list.image}`}
+                  alt="mv"
+                  className="mb-2 d-block mx-auto"
+                  width="100px"
+                />
+                <h3 className="text-center fw-bold text-accent">
+                  {list.title}
+                </h3>
+                <p className="px-2 small">{list.data}</p>
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </Container>
-    </Container>
+    </>
   );
 };

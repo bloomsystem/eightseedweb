@@ -3,11 +3,11 @@ import { Col, Container, Row } from 'react-bootstrap';
 export const MainView = () => {
   return (
     <>
-      <Container fluid className="wrap p-0 bg-basic py-5">
+      <Container fluid className="wrap p-0 bg-primary py-5">
         <Container className="justify-content-center">
           <Row>
             <Col xs="12" className="text-center pt-5">
-              <h1 className="grad pb-2 en-new-spirit text-accent">
+              <h1 className="grad pb-2 en-new-spirit text-accent fw-bold">
                 eight seed
               </h1>
               <p className="text-secondary en-new-spirit text-tone mb-5">
@@ -24,7 +24,7 @@ export const MainView = () => {
       </Container>
       <div className="round-under" />
       <Container className="my-5 py-5 text-center">
-        <Row className="">
+        <Row className="fw-bold text-basic">
           <p>eight seedの基盤はスタッフファーストの精神</p>
           <p>個人のワークスタイルを尊重し、仕事に誇りと生き甲斐を持ち</p>
           <p>好きを強みに日々進化することを目標に掲げています。</p>
@@ -32,20 +32,22 @@ export const MainView = () => {
           <p>お客様へ最上級のクオリティを提供します。</p>
         </Row>
       </Container>
-      <Container fluid className="bg-tone pt-5">
+      <Container fluid className="bg-basic pt-5">
         <Container>
           <Row className="d-flex align-items-center justify-content-center">
             <Col xs="12" md="7" className="py-5">
-              <h2 className="en-new-spirit">
+              <h2 className="en-new-spirit text-accent fw-bold">
                 breaking down the invisible wall
               </h2>
               <hr />
-              <p>お客様との価値基準を共有、Inclusiveな行動をもって</p>
+              <div className="text-tone mt-5 fw-bold">
+                <p>お客様との価値基準を共有、Inclusiveな行動をもって</p>
 
-              <p>サービスを共に作り上げることを志しています</p>
-              <p>私たちは作り続けることを止めず</p>
-              <p>壊し続けることを止めず</p>
-              <p>常にベストソリューションを追い求めます</p>
+                <p>サービスを共に作り上げることを志しています</p>
+                <p>私たちは作り続けることを止めず</p>
+                <p>壊し続けることを止めず</p>
+                <p>常にベストソリューションを追い求めます</p>
+              </div>
             </Col>
             <Col xs="12" md="4" className="py-5">
               <img

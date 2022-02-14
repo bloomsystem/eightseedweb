@@ -9,11 +9,13 @@ const NavbarPart = ({ istop }) => {
         expand="lg"
         bg="dark"
         variant="dark"
-        className="bg-basic"
+        className="bg-primary"
         fixed="top"
       >
         <Container>
-          <Navbar.Brand href="#home">eight seed</Navbar.Brand>
+          <Navbar.Brand href="#home" className="fw-bold text-tone">
+            eight seed
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

@@ -51,14 +51,14 @@ export const Service = () => {
   ];
 
   return (
-    <Container fluid={true} className="wrap pb-5 my-5 py-5">
+    <Container fluid={true} className="bg-secondary py-5">
       <Row className="justify-contents-center">
-        <Col xs="8" className="mx-auto text-left mb-5">
-          <p className="text-orange">eight seedによる成果物</p>
-          <h2 className="display-4 en-new-spirit ">Service</h2>
+        <Col xs="8" className="mx-auto text-left mb-5 pt-5">
+          <p className="text-basic fw-bold">eight seedによる成果物</p>
+          <h2 className="en-new-spirit text-basic fw-bold">Service</h2>
           <hr className="dots mx-0" />
         </Col>
-        <Col xs="12" className="mx-auto text-left">
+        <Col xs="12" className="mx-auto text-left pb-5">
           <Slider lists={lists} />
         </Col>
       </Row>

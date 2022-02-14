@@ -4,15 +4,15 @@ export const Information = () => {
   return (
     <Container className="my-5 py-5">
       <Row>
-        <Col>
+        <Col md="6">
           <img
             className="d-block mx-auto"
             src={`${process.env.PUBLIC_URL}/earth.svg`}
             width="300px"
           />
         </Col>
-        <Col>
-          <h2 className="en-new-spirit">Informations</h2>
+        <Col mD="6">
+          <h2 className="en-new-spirit fw-bold text-accent">Informations</h2>
           <hr />
         </Col>
       </Row>
