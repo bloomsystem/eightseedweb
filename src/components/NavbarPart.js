@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavbarPart = ({ istop }) => {
   return (
@@ -19,19 +20,33 @@ const NavbarPart = ({ istop }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/eightseedweb/about">About</Nav.Link>
-              <Nav.Link href="/eightseedweb/works">Works</Nav.Link>
-              <Nav.Link href="/eightseedweb/recruit">Recruit</Nav.Link>
+              <Link className="p-2 text-decoration-none text-tone" to="/about">
+                About
+              </Link>
+              <Link className="p-2 text-decoration-none text-tone" to="/works">
+                Works
+              </Link>
+              <Link
+                className="p-2 text-decoration-none text-tone"
+                to="/recruit"
+              >
+                Recruit
+              </Link>
               <Nav.Link
                 href="https://forms.gle/igQkPtFtLs7FhQ8L6"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="p-2 text-decoration-none text-tone"
               >
                 Contact
               </Nav.Link>
             </Nav>
             <Nav>
-              <Nav className="text-tone">
+              <Nav
+                class
+                className="p-2 text-decoration-none text-tone"
+                Name="text-tone"
+              >
                 北海道札幌市のシステム制作・Webデザイン
               </Nav>
             </Nav>
