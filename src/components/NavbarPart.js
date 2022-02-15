@@ -30,7 +30,7 @@ const NavbarPart = ({ istop }) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {!istop && <div className="round-under" />}
+      {!istop && <div className="round-under mt-5" />}
     </>
   );
 };
