@@ -20,14 +20,20 @@ const NavbarPart = ({ istop }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link className="p-2 text-decoration-none text-tone" to="/about">
+              <Link
+                className="p-2 text-decoration-none text-tone rotateY"
+                to="/about"
+              >
                 About
               </Link>
-              <Link className="p-2 text-decoration-none text-tone" to="/works">
+              <Link
+                className="p-2 text-decoration-none text-tone rotateY"
+                to="/works"
+              >
                 Works
               </Link>
               <Link
-                className="p-2 text-decoration-none text-tone"
+                className="p-2 text-decoration-none text-tone rotateY"
                 to="/recruit"
               >
                 Recruit
@@ -36,7 +42,7 @@ const NavbarPart = ({ istop }) => {
                 href="https://forms.gle/igQkPtFtLs7FhQ8L6"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 text-decoration-none text-tone"
+                className="p-2 text-decoration-none text-tone rotateY"
               >
                 Contact
               </Nav.Link>
