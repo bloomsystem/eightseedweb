@@ -6,9 +6,6 @@ export const Markdown = () => {
   ## 見出し
   コンテンツ
   込コンテンツ
-
-  コンテンツ
-  
   `;
 
   return (
