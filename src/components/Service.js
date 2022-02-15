@@ -52,16 +52,18 @@ export const Service = () => {
 
   return (
     <Container fluid={true} className="bg-secondary py-5">
-      <Row className="justify-contents-center">
-        <Col xs="8" className="mx-auto text-left mb-5 pt-5">
-          <p className="text-basic fw-bold">eight seedによる成果物</p>
-          <h2 className="en-new-spirit text-basic fw-bold">Service</h2>
-          <hr className="dots mx-0" />
-        </Col>
-        <Col xs="12" className="mx-auto text-left pb-5">
-          <Slider lists={lists} />
-        </Col>
-      </Row>
+      <Container>
+        <Row className="justify-content-start">
+          <Col xs="12" md="5" className="text-left mb-5 pt-5">
+            <p className="text-basic fw-bold">eight seedによる成果物</p>
+            <h2 className="en-new-spirit text-basic fw-bold">Service</h2>
+            <hr className="dots mx-0" />
+          </Col>
+          <Col xs="12" className="mx-auto text-left pb-5">
+            <Slider lists={lists} />
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 };

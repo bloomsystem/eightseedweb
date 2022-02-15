@@ -11,7 +11,7 @@ export const Information = () => {
             width="300px"
           />
         </Col>
-        <Col mD="6">
+        <Col md="6">
           <h2 className="en-new-spirit fw-bold text-accent">Informations</h2>
           <hr />
           <ul className="text-basic">

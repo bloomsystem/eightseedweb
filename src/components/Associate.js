@@ -25,18 +25,20 @@ export const Associate = () => {
 
   return (
     <Container fluid={true} className="wrap pb-5 my-5 py-5">
-      <Row className="justify-contents-center">
-        <Col xs="8" className="mx-auto text-left mb-5">
-          <p className="text-basic fw-bold">お取引先様一例</p>
-          <h2 className="text-basic fw-bold en-new-spirit ">
-            Business Associate
-          </h2>
-          <hr className="dots mx-0" />
-        </Col>
-        <Col xs="12" className="mx-auto text-left">
-          <Slider lists={lists} className="px-2" />
-        </Col>
-      </Row>
+      <Container>
+        <Row className="justify-content-start">
+          <Col xs="12" md="5" className="text-left mb-5">
+            <p className="text-basic fw-bold">お取引先様一例</p>
+            <h2 className="text-basic fw-bold en-new-spirit ">
+              Business Associate
+            </h2>
+            <hr className="dots mx-0" />
+          </Col>
+          <Col xs="12" className="mx-auto text-left">
+            <Slider lists={lists} className="px-2" />
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 };

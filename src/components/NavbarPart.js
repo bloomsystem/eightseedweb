@@ -13,15 +13,15 @@ const NavbarPart = ({ istop }) => {
         fixed="top"
       >
         <Container>
-          <Navbar.Brand href="#home" className="fw-bold text-tone">
+          <Navbar.Brand href="/eightseedweb" className="fw-bold text-tone">
             eight seed
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#Works">Works</Nav.Link>
-              <Nav.Link href="#Recruit">Recruit</Nav.Link>
+              <Nav.Link href="/eightseedweb/about">About</Nav.Link>
+              <Nav.Link href="/eightseedweb/works">Works</Nav.Link>
+              <Nav.Link href="/eightseedweb/recruit">Recruit</Nav.Link>
               <Nav.Link
                 href="https://forms.gle/igQkPtFtLs7FhQ8L6"
                 target="_blank"
