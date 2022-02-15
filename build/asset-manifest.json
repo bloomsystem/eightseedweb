@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eightseedweb/static/css/main.4c3843f1.css",
-    "main.js": "/eightseedweb/static/js/main.f864ef33.js",
+    "main.css": "/eightseedweb/static/css/main.1c0eab75.css",
+    "main.js": "/eightseedweb/static/js/main.d58fda44.js",
     "static/js/27.156daa99.chunk.js": "/eightseedweb/static/js/27.156daa99.chunk.js",
     "static/media/slick.svg": "/eightseedweb/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/eightseedweb/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -10,7 +10,7 @@
     "index.html": "/eightseedweb/index.html"
   },
   "entrypoints": [
-    "static/css/main.4c3843f1.css",
-    "static/js/main.f864ef33.js"
+    "static/css/main.1c0eab75.css",
+    "static/js/main.d58fda44.js"
   ]
 }
