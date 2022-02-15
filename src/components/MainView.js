@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const MainView = () => {
   return (
@@ -48,6 +49,9 @@ export const MainView = () => {
                 <p>壊し続けることを止めず</p>
                 <p>常にベストソリューションを追い求めます</p>
               </div>
+              <Link to="about" className="btn button-accent my-5">
+                <span>About more →</span>
+              </Link>
             </Col>
             <Col xs="12" md="4" className="py-5">
               <img

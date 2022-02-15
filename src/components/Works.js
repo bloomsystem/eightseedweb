@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const Works = () => {
   const workFlow = [
@@ -58,11 +59,14 @@ export const Works = () => {
                     手法に捉われず常に新しいことに挑戦するため、要件に合わせた柔軟な対応が可能です。
                   </p>
 
-                  <p className="text-basic">
+                  <p className="text-basic my-3">
                     webシステム / Android,iOS APP / 業務システム / webデザイン /
                     webサイト,ECサイト / クラウド,オンプレインフラ構築 /
                     システム運用保守
                   </p>
+                  <Link to="works" className="btn button-accent my-5">
+                    <span>Works more →</span>
+                  </Link>
                 </Col>
               </Row>
             </Container>

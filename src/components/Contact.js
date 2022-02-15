@@ -26,7 +26,7 @@ export const Contact = () => {
               href="https://forms.gle/igQkPtFtLs7FhQ8L6"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn button-accent"
+              className="btn button-accent mt-4"
             >
               <span>お問合せ</span>
             </a>
