@@ -123,3 +123,12 @@
     transform: rotate(360deg);
   }
 }
+
+.rotateY {
+  display: inline-block;
+}
+.rotateY:hover {
+  transition: 0.5s;
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}

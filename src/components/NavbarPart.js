@@ -19,13 +19,29 @@ const NavbarPart = ({ istop }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/eightseedweb/about">About</Nav.Link>
-              <Nav.Link href="/eightseedweb/works">Works</Nav.Link>
-              <Nav.Link href="/eightseedweb/recruit">Recruit</Nav.Link>
+              <Nav.Link
+                href="/eightseedweb/about"
+                className="rotateY text-tone"
+              >
+                About
+              </Nav.Link>
+              <Nav.Link
+                href="/eightseedweb/works"
+                className="rotateY text-tone"
+              >
+                Works
+              </Nav.Link>
+              <Nav.Link
+                href="/eightseedweb/recruit"
+                className="rotateY text-tone"
+              >
+                Recruit
+              </Nav.Link>
               <Nav.Link
                 href="https://forms.gle/igQkPtFtLs7FhQ8L6"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="rotateY text-tone"
               >
                 Contact
               </Nav.Link>
